@@ -8,7 +8,7 @@ Developed using Vanilla JavaScript, ES6, HTML5, and CSS3.
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [API Key](#api-key)
-- [Configuration] (#configuration)
+- [Configuration](#configuration)
 
 ## Features
 
