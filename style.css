@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: #ebfffc;
+}
+
+.card{
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #8AD0EC, #093867);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+
+.search-section{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.search-bar{
+    
+    flex: 1;
+    margin-right: 16px;
+    display: flex;
+    position: relative;
+   
+}
+
+.search-bar input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 30px;
+    background: #fff;
+    color: #555;
+    height: 60px;
+    padding: 10px 15px;
+    font-size: 18px;  
+}
+
+.search-bar img{
+    position: absolute;
+    width: 28px;
+    height: 28px;  
+    display: none;
+    right: 20px;  
+    top: 15px; 
+}
+
+.search-section button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background: #ebfffc;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-section button img{
+    width: 16px;
+   
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    display: none;
+}
+ span{
+    color: red;
+ }
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size:45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    
+}
+
+.wind-humidity{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.wind-humidity img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+
+.weather{
+    display: none;
+}
